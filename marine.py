@@ -271,6 +271,4 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 local_path = os.path.join(OUTPUT_DIR, OUTPUT_FILE)
 df.to_csv(local_path, index=False)
 
-# Network save
-network_path = r"\\WFOR-TVSDC-2\DigitalMedia\Custom\ImportedData\marine_forecast.csv"
-df.to_csv(network_path, index=False)
+
