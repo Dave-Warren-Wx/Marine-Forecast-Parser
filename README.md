@@ -1,10 +1,10 @@
-# Marine Forecast Parser ??
+# Marine Forecast Parser
 
 This Python script scrapes and parses NOAA Coastal Waters Forecasts (CWF) for South Florida (Miami) and the Florida Keys.  
 It outputs structured CSV files with extracted marine forecast data for newsroom and automation use.
 
 ## Features
-- Automatically detects “today” or “tomorrow” forecasts based on current time
+- Automatically detects â€œtodayâ€ or â€œtomorrowâ€ forecasts based on current time
 - Extracts:
   - Winds (with direction and gusts)
   - Seas (with ranges and occasional values)
@@ -23,11 +23,12 @@ The working directory on my system is:
 
 C:\Users\TruVuAdmin\Documents\Python_Projects\
 +-- src\
-¦   +-- marine_forecast.py
-¦   +-- utils\
-¦   +-- data\
-¦       +-- output\
-¦           +-- marine_forecast.csv
+Â¦   +-- marine_forecast.py
+Â¦   +-- utils\
+Â¦   +-- data\
+Â¦       +-- output\
+Â¦           +-- marine_forecast.csv
 
 For GitHub, only the main script and dependency files are included.
+
 
